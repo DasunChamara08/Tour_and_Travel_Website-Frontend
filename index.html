@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <section class="flex">
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="Login\login.html">login</a>
+        <a href="#packages">places</a>
+        <a href="Service\service.html">services</a>
+        <a href="#gallery">popular</a>
+        <a href="Register\register.html">register</a>
+        <a href="#contact">contact</a>
+        <a href="Contact\hotline.html">hotline</a>
+       
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+    </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="Videos\Video 1.mp4"></span>
+            <span class="vid-btn" data-src="Videos\Video 2.mp4"></span>
+            <span class="vid-btn" data-src="Videos\Video 3.mp4"></span>
+            <span class="vid-btn" data-src="Videos\Video 6.mp4"></span>
+            <span class="vid-btn" data-src="Videos\Video 7.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+
+
+<!-- places section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>P</span>
+        <span>L</span>
+        <span>A</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+        
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images\Sigiriya.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Dabulla </h3>
+                <p>With ornate ponds, royal sleeping chambers and a majestic set of carved lion paws marking the start of its steep steps, the colossal, ruin-topped outcrop of Sigiriya is Sri Lanka’s most recognizable site, peeking out over the thick jungle canopy and offering a tantalizing glimpse of the ancient kingdom of Kassapa.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Ella.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Ella </h3>
+                <p>Welcome to everyone’s favorite hill-country village, and the place to ease off the travel accelerator with a few leisurely days resting in your choice of some of the country’s best guesthouses. The views through Ella Gap are stunning, and on a clear night you can even spy the subtle glow of the Great Basses lighthouse on Sri Lanka’s south coast. Don’t be too laid-back though; definitely make time for easygoing walks through tea plantations to temples, waterfalls and viewpoints. After building up a hiking-inspired appetite, look forward to Sri Lanka’s best home-cooked food and a reviving cuppa.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Dasun Chamara\Desktop\tour and travel website1\tour and travel website\images\Polonnaruwa.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Polonnaruwa </h3>
+                <p>Often visited on an ancient cities circuit that includes Anuradhapura, Polonnaruwa is famed for its ancient ruins, carved temples and rich Buddhist heritage. As you gaze upon the 14m (46ft) reclining Buddha inside the Gal Viharaya, you can’t help but imagine the effort that went into creating these graceful figures. The white, grey and black granite softens the details of these intricate carvings, and the scent of fresh flowers and incense, offered to the statues by devotees, floats through the air. Don’t miss the other archaeological sites in the area, including the closely grouped temples and stupas comprising the Royal Ruins, which can be explored on a rewarding day of sightseeing.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Galle.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Galle </h3>
+                <p>Galle is a jewel. A Unesco World Heritage Site, this historic city is a delight to explore on foot, an endlessly exotic old trading port blessed with imposing Dutch-colonial buildings, ancient mosques and churches, grand mansions and museums. 
+                    Wandering its rambling lanes you'll pass stylish cafes, quirky boutiques and impeccably restored hotels owned by local and foreign artists, writers, photographers and designers.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Colombo.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Colombo </h3>
+                <p>Be sure to spend some time at Galle Face Green, Colombo's main seaside promenade, where hundreds of families gather to munch on local snacks and dip their toes in the sea at sunset. Order yourself some isso vade – deep-fried prawn and lentil fritters, topped with spicy sambol (coconut and chili chutney) – and settle in for some people-watching.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Jaffna.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Jaffna </h3>
+                <p>A trip to Jaffna in the far north of Sri Lanka offers a relaxed change from the rest of the country, and there's loads to see, from historic Jaffna Fort to the gleaming brasswork and staggering murals of the architecturally marvelous Nallur Kandaswamy Kovil Hindu temple. Here you can immerse yourself in the culture and heritage of Sri Lanka’s largest ethnic minority: the Tamil people.
+
+                    Once caught up in conflict and colonial occupation, Jaffna has been revitalized by the return of peace, with excellent, up-and-coming restaurants serving the region's spicy, Indian-influenced cuisine. Several islands off the coast of Jaffna are accessible by road or ferry. Kayts – a hauntingly beautiful, quiet island of fishing communities – and Delft, with its wild ponies descended from horses abandoned by Dutch colonists, are both well worth a visit.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Kandy1.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Kandy </h3>
+                <p>For a culture-filled trip from Colombo, take the train from Fort Railway Station to the heritage town of Kandy. It's a must for any rail enthusiast – the railway lines curve and wind around mountains to connect rural towns, and wide windows frame views of deep ravines and hillsides densely covered in emerald-green forest.
+
+                    The legendary Temple of the Sacred Tooth Relic – containing a tooth said to come from the historical Buddha – and Kandy Lake are must-see attractions for anyone visiting Sri Lanka. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Arugam Bay1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Arugam Bay </h3>
+                <p>For aspiring surfers, there are few spots on the island more idyllic than Arugam Bay. With a famous point break and plenty of waves that are easy for newbie surfers to conquer, this is a great spot to step off the conveyor belt of life and devote some quality time to sun, sand and surf.
+
+                    Surf schools abound, and there are numerous, laid-back places to stay, eat and grab a drink in front of the view. It's easy to lose track of time here, but you're close to national parks and the atmospheric tea-growing towns of the Hill Country.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\Trincomalee.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Trincomalee </h3>
+                <p>At Trincomalee, stretches of powdery soft sand and calm waters meld with dramatic cliffside Hindu temples – among them the famous Kandasamy Kovil, with its richly ornamental architecture and monumental statue of Shiva looking out to sea. Here, you'll see a side to Sri Lanka that remains off the radar for most visitors.
+
+                    The long beaches here are disturbed only by the occasional bit of driftwood or coconut husk washing ashore, and the shallow waters are ripe for snorkeling, with miles of coral reefs and thriving marine life.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div>  </div>
+                <a></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- places section ends -->
+
+<!-- popular section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>P</span>
+        <span>O</span>
+        <span>P</span>
+        <span>U</span>
+        <span>L</span>
+        <span>A</span>
+        <span>R</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images\Kandy1.jpeg" alt="">
+            <div class="content">
+                <h3>Kandy</h3>
+                <p><b>Best for a taste of the Hill Country</b></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Colombo1.jpeg" alt="">
+            <div class="content">
+                <h3>Colombo</h3>
+                <p><b>Best for food and big city vibes</b></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Trincomalee1.jpeg" alt="">
+            <div class="content">
+                <h3>Trincomalee</h3>
+                <p><b>Best for an unspoiled beach vacation</b></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Ella1.jpeg" alt="">
+            <div class="content">
+                <h3>Ella</h3>
+                <p><b>Best for hikers</b></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Galle1.jpg" alt="">
+            <div class="content">
+                <h3>Galle</h3>
+                <p><b>Best for amazing places</b></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Arugam Bay.jpg" alt="">
+            <div class="content">
+                <h3>Arugam Bay</h3>
+                <p><b>Best for catching a wave</b></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+      
+        
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<footer class="footer">
+
+    <section class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ratione hic possimus ad tempora earum!.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Sigiriya</a>
+            <a href="#">Polonnaruwa</a>
+            <a href="#">Colombo</a>
+            <a href="#">Kandy</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </section>
+
+    <h1 class="credit"> created by <span> Our Team </span> | all rights reserved! </h1>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
